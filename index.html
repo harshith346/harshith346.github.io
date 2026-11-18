@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Harshith Kumar D H, Computer Science Engineering student interested in cybersecurity, Python and AI.">
+  <title>Harshith Kumar D H | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#07111f;--panel:#0d1b2b;--panel2:#102338;--text:#e8f0f7;--muted:#9db0c3;--green:#55f2a5;--line:#1b344b}
+    *{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+    body{font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#102b3a 0,transparent 32%),var(--bg);color:var(--text);line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,90%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#07111feF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font:700 18px "Space Mono",monospace;color:var(--green)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--green)}
+    .hero{min-height:610px;display:grid;grid-template-columns:1.4fr .8fr;align-items:center;gap:50px;padding:80px 0}
+    .eyebrow{font:13px "Space Mono",monospace;color:var(--green);letter-spacing:2px}
+    h1{font-size:clamp(42px,7vw,70px);line-height:1.08;margin:18px 0}.accent{color:var(--green)}
+    .hero p{max-width:620px;color:var(--muted);font-size:17px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+    .btn{padding:12px 19px;border:1px solid var(--green);border-radius:7px;font-weight:700;font-size:14px;display:inline-block}
+    .primary{background:var(--green);color:#06131b}.secondary{color:var(--green)}.btn:hover{transform:translateY(-2px)}
+    .terminal{background:#091725;border:1px solid #21415a;border-radius:14px;box-shadow:0 20px 60px #0005;overflow:hidden;font:13px "Space Mono",monospace}
+    .termbar{padding:13px 16px;border-bottom:1px solid var(--line);color:var(--muted)}.dots{color:#ff7185;letter-spacing:5px}
+    .termcontent{padding:24px;color:#b9cbd9}.prompt{color:var(--green)}.termcontent p{font-size:12px;margin:10px 0;color:#b9cbd9}
+    section{padding:76px 0;border-top:1px solid #183047}.section-tag{font:12px "Space Mono",monospace;color:var(--green);letter-spacing:2px}
+    h2{font-size:34px;margin:8px 0 28px}.muted{color:var(--muted)}
+    .about-grid,.project-grid,.skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:linear-gradient(145deg,var(--panel),#0a1725);border:1px solid var(--line);border-radius:12px;padding:24px}
+    .card h3{margin-bottom:10px}.card p{color:var(--muted);font-size:14px}
+    .skill-grid{grid-template-columns:repeat(4,1fr)}.skill{padding:16px;border:1px solid var(--line);border-radius:9px;background:#0b1928;color:#d9e8f3;font-weight:600}
+    .skill span{display:block;color:var(--green);font:11px "Space Mono",monospace;margin-bottom:5px}
+    .project{display:flex;flex-direction:column;min-height:230px}.project .meta{color:var(--green);font:11px "Space Mono",monospace;margin-bottom:10px}.project p{margin-bottom:18px}
+    .project a{color:var(--green);font-weight:700;font-size:14px;margin-top:auto}
+    .contact{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+    footer{padding:28px 0;color:var(--muted);font-size:13px;text-align:center;border-top:1px solid var(--line)}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0}.terminal{max-width:520px}.navlinks{gap:12px;font-size:12px}.logo{font-size:14px}.skill-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.project-grid{grid-template-columns:1fr}h2{font-size:29px}}
+    @media(max-width:430px){.navlinks a:nth-child(2){display:none}.nav{height:64px}}
+  </style>
+</head>
+<body>
+<header><nav class="wrap">
+  <a class="logo" href="#home">&lt;HKDH /&gt;</a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav></header>
+<main>
+  <section class="hero wrap" id="home" style="border:0">
+    <div>
+      <div class="eyebrow">CYBERSECURITY • AI • PYTHON</div>
+      <h1>Hi, I'm<br><span class="accent">Harshith Kumar D H</span></h1>
+      <p>Computer Science Engineering student exploring cybersecurity, threat intelligence, Python development and artificial intelligence. I enjoy learning by building practical projects.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore Projects</a><a class="btn secondary" href="https://github.com/harshith346" target="_blank" rel="noopener">View GitHub ↗</a></div>
+    </div>
+    <div class="terminal">
+      <div class="termbar"><span class="dots">● ● ●</span> &nbsp; profile.py</div>
+      <div class="termcontent">
+        <p><span class="prompt">>>> </span>whoami</p>
+        <p>Computer Science Engineering Student</p>
+        <p><span class="prompt">>>> </span>interests</p>
+        <p>Cybersecurity<br>AI &amp; Machine Learning<br>Threat Intelligence</p>
+        <p><span class="prompt">>>> </span>status</p>
+        <p style="color:var(--green)">Learning • Building • Improving_</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about"><div class="wrap">
+    <div class="section-tag">01 / ABOUT</div><h2>About Me</h2>
+    <div class="about-grid">
+      <div class="card"><h3>Who I Am</h3><p>I'm a Computer Science Engineering student with an interest in cybersecurity and AI. I am developing my programming and problem-solving skills through academic projects and hands-on practice.</p></div>
+      <div class="card"><h3>What I'm Exploring</h3><p>My current learning areas include Python, machine learning, web application development, databases, Git and defensive cybersecurity concepts.</p></div>
+    </div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-tag">02 / TOOLKIT</div><h2>Technical Skills</h2>
+    <div class="skill-grid">
+      <div class="skill"><span>LANGUAGE</span>Python</div>
+      <div class="skill"><span>WEB</span>Flask</div>
+      <div class="skill"><span>APP</span>Streamlit</div>
+      <div class="skill"><span>AI / ML</span>Scikit-learn</div>
+      <div class="skill"><span>DATABASE</span>SQLite</div>
+      <div class="skill"><span>TOOLS</span>VS Code</div>
+      <div class="skill"><span>VERSION CONTROL</span>Git</div>
+      <div class="skill"><span>PLATFORM</span>GitHub</div>
+    </div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <div class="section-tag">03 / SELECTED WORK</div><h2>Featured Projects</h2>
+    <div class="project-grid">
+      <article class="card project"><div class="meta">CYBERSECURITY • AI • PYTHON</div><h3>AI-Based Simulated Dark Web Cybercrime Ecosystem &amp; Threat Intelligence Platform</h3><p>An educational research prototype using synthetic threat data, AI-based classification, threat relationship visualization, history, analytics and PDF reports.</p><a href="https://github.com/harshith346/AI-Dark-Web-Threat-intelligence" target="_blank" rel="noopener">View source on GitHub ↗</a></article>
+      <article class="card project"><div class="meta">MACHINE LEARNING • PYTHON</div><h3>Non-Invasive Blood Group Detection</h3><p>An academic prototype exploring machine-learning classification with a synthetic dataset. This is an educational project, not a medical diagnostic tool.</p><span class="muted" style="font-size:13px">Project details can be added here.</span></article>
+    </div>
+  </div></section>
+
+  <section id="contact"><div class="wrap contact">
+    <div><div class="section-tag">04 / CONNECT</div><h2>Let's Connect</h2><p class="muted">You can explore my code and project work on GitHub.</p></div>
+    <a class="btn primary" href="https://github.com/harshith346" target="_blank" rel="noopener">GitHub Profile ↗</a>
+  </div></section>
+</main>
+<footer><div class="wrap">© 2026 Harshith Kumar D H · Built with HTML &amp; CSS</div></footer>
+</body>
+</html>
